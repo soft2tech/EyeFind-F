@@ -5,8 +5,6 @@ import { useAppSelector, useAppDispatch } from '../store/hooks.js'
 
 import { decrement, increment, incrementByAmount, incrementAsync } from '../store/Slice/counterSlice'
 
-// s
-
 function About() {
   const count = useAppSelector(state => state.counter.value)
   const dispatch = useAppDispatch()
