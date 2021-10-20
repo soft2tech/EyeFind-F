@@ -1,0 +1,54 @@
+#header {
+  background-color: #0f1231ff;
+}
+
+html, body {
+  background-color: #282b4aff;
+}
+
+::-moz-selection {
+  color: white;
+  background: #c338cb;
+}
+
+::selection {
+  color: white;
+  background: #c338cb;
+}
+
+
+.SrvButton {
+  background-color: #282b4aff;
+  border-color: #282b4aff;
+  width: 15rem !important;
+
+}
+
+.SrvButton:hover {
+  background-color: #9e45c6;
+  border-color: #9e45c6;
+}
+
+.SrvButton:focus {
+  background-color: #9e45c6;
+  border-color: #9e45c6;
+}
+
+.SearchBTN {
+  background-color: #9e45c6;
+  border-color: #9e45c6;
+}
+
+.SearchBTN:hover {
+  background-color: #0f1231ff;
+  border-color: #0f1231ff;
+}
+
+.SearchBTN:focus {
+  background-color: #9e45c6;
+  border-color: #9e45c6;
+}
+
+.navLink:hover {
+  color: #9e45c6 !important;
+}
