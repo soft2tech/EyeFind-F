@@ -17,6 +17,7 @@ function About() {
         <h3>All Eyes On Me</h3>
         <p>
           All Seeing Eye is Watching Ya
+          be nice nigga
         </p>
         <hr />
         <h1> {count} </h1>
@@ -35,4 +36,4 @@ function About() {
   )
 }
 
-export default About;
+export default About

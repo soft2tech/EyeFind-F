@@ -7,7 +7,7 @@ import './app.css'
 import Header from './components/Header'
 import Home from './pages/Home'
 import About from './pages/About'
-
+import TravelPage from './pages/Travel'
 
 function App() {
   return (
@@ -21,7 +21,10 @@ function App() {
             <Route exact path="/about">
               <About />
             </Route>
-        </Switch>
+            <Route exact path="/eyetravel">
+              <TravelPage />
+            </Route>
+          </Switch>
       </Router>
     </>
   )
